@@ -8,7 +8,7 @@ var requestOptions = {
 };
 
 fetch(
- "http://web1c.standart.by/std_UT/hs/api/StandartsByType/1",
+ "https://web1c.standart.by/std_UT/hs/api/StandartsByType/1",
  requestOptions
 )
  .then((response) => response.text())
